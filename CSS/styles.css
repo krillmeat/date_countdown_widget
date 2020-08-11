@@ -1,0 +1,41 @@
+body{ font-size: 16px }
+body * { box-sizing: border-box }
+
+.wrapper{
+    
+}
+
+.top{
+    width: 100%;
+    background: rgb(0, 164, 230);
+    padding: 120px;
+}
+
+h1{
+    width: 100%;
+    margin-bottom: 64px;
+
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.widget-wrapper{
+    display: flex;
+        justify-content: center;
+}
+
+.date-countdown-widget{
+    /* border: 1px solid #222; */
+}
+
+.date-picker{
+    padding: 64px;
+    display: flex;
+        justify-content: center;
+    
+    transform: scale(2);
+}
